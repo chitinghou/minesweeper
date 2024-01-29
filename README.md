@@ -79,8 +79,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 Welcome to the classic game of Minesweeper, recreated with Java. This timeless logic-based game challenges players to clear a rectangular board containing hidden "mines" without detonating any of them.
 
 How to Play?
@@ -107,7 +105,7 @@ How to Play?
 
 This section lists the major frameworks and libraries that were used in building Chirper.
 
-* [![Java][Java.com]][Java-url]
+* [![Java]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
