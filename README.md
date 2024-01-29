@@ -105,7 +105,7 @@ How to Play?
 
 This section lists the major frameworks and libraries that were used in building Chirper.
 
-* [![Java]
+* [Java]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
