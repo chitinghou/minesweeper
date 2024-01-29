@@ -1,0 +1,50 @@
+
+[Executed at: Tue Oct 24 20:29:14 PDT 2023]
+
+Checking for: README MineField.java VisibleField.java
+All necessary files are present: 'README MineField.java VisibleField.java' (Passed)
+Executing command: javac -d . MineField.java 
+(Passed)
+Executing command: javac -d . VisibleField.java 
+(Passed)
+All necessary files compiled: 'MineField.java VisibleField.java' (Passed)
+
+======= MineField checking =======
+The following tests are checking the 1-arg constructor of MineField, and all the accessors
+We use JUnit tests. If you fail certain tests, it means your return value is different than our expected value.
+For example, if you see 'MineField - inRange test failed', it means you might have some problems with inRange() method.
+
+========== Tests begin ===========
+
+MineField - 1-arg constructor test passed
+This test is for the 1-arg constructor. Your 1-arg constructor should accept the input array and create a corresponding 2D array which contains the mines in correct positions and maintain the correct number of mines. If you fail this test, it means the 2D array your constructor creates may be different from the expected array.
+
+MineField - non-square case test passed
+This test is for the 1-arg constructor but the input 2D array is not a square. In other words, the rows and cols of the input 2D array are different.
+
+MineField - Test of defensive copy of the array passed
+This test is to test whether your 1-arg constructor does a defensive copy of the input 2D array. To be more specific, if we modify the origial array passed as the parameter of the constructor, your 2D array for the MineField should not be modified.
+
+MineField - 1-arg constr: populate and reset test passed
+This test calls populateMineField and resetEmpty on a fixed Minefield which will never happen in game.
+
+MineField - numRows test passed
+This test is for the numRows accessor.
+
+MineField - numCols test passed
+This test is for the numCols accessor.
+
+MineField - numMines test passed
+This test is for the numMines accessor.
+
+MineField - hasMine test passed
+This test is for the hasMine accessor.
+
+MineField - numAdjacentMines test passed
+This test is for numAdjacentMines. If you failed the test, it means your numAdjacentMines does not return the expected number of mines adjacent to the specified mine location
+
+MineField - inRange test passed
+This test is for the inRange accessor.
+
+SUMMARY of MineField tests: passed 10 out of 10 tests
+========= End of Report ==========

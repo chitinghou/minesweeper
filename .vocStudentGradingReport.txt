@@ -1,0 +1,50 @@
+
+[Executed at: Sat Oct 28 16:11:07 PDT 2023]
+
+==================================================
+=============== Check MineField ==================
+==================================================
+Correctness MineField - 1-arg constructor passed
+Correctness MineField - 1-arg constructor and populate (1 x 1) passed
+Correctness MineField - 3-arg constructor (4 x 4 - 5 mines) passed
+Correctness MineField - 3-arg constructor (1 x 1 - 0 mines) passed
+Correctness MineField - 1-arg constr: populate and reset passed
+Correctness MineField - 3-arg constr: reset passed
+Correctness MineField - populateMineField (4 x 4 - 5 mines) passed
+Correctness MineField - populateMineField (9 x 9 - 20 mines) passed
+Correctness MineField - numRows passed
+Correctness MineField - numCols passed
+Correctness MineField - numMines passed
+Correctness MineField - hasMine passed
+Correctness MineField - numAdjacentMines passed
+Correctness MineField - inRange passed
+Correctness MineField - non-square mineField passed
+Correctness MineField - defensive copy passed
+==================================================
+=============== Check VisibleField ==================
+==================================================
+Correctness VisibleField - constructor passed
+Correctness VisibleField - resetGameDisplay passed
+Correctness VisibleField - cycleGuess passed
+Correctness VisibleField - cycleGuess on uncovered mines passed
+Correctness VisibleField - uncover: no recursion passed
+Correctness VisibleField - uncover stops at guesses but not ? squares passed
+Correctness VisibleField - uncover goes around guesses passed
+Correctness VisibleField - uncover recursive: start at edge - first move passed
+Correctness VisibleField - uncover recursive: start at edge - later move passed
+Correctness VisibleField - uncover recursive: start from middle passed
+Correctness VisibleField - lose-condition first move passed
+Correctness VisibleField - lose-condition after other moves: isGameOver passed
+Correctness VisibleField - lose-condition after other moves: status of board failed
+Correctness VisibleField - lose-condition after other moves: numMinesLeft passed
+Correctness VisibleField - win condition with no guesses passed
+Correctness VisibleField - win condition after guesses: isGameOver passed
+Correctness VisibleField - win condition after guesses: status of board passed
+Correctness VisibleField - win condition after guesses: numMinesLeft passed
+==================================================
+==================================================
+=============== Check Random Field ==================
+==================================================
+Correctness VisibleField - isGameOver is accessor failed
+==================================================
+
